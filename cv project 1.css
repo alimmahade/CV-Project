@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+h1,h2,h3,h4,h5{
+    color: #119991;
+}
+.container{
+    background-color:#e4f9f5;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px; 
+}
+header{
+
+}
+.pro-img{
+    width: 100px;
+    height: 120px;
+    border: solid 3px white;
+    border-radius:50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 20px ;
+}
+.header-link{
+    float: right;
+    padding: 20px;
+    line-height: 1.2;
+}
+.header-link a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.header-link a:hover{
+    text-decoration: underline;
+    color: red;
+    text-shadow: 3px 4px 5px gray;
+}
+.div-clear{
+    clear: both;
+}
+.hr-common{
+    margin: 20px auto;
+    border: solid 3px black ;
+    border-bottom: none;
+    
+}
+.personal-content{}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float:right;
+}
+.right-1{
+    width: 45%;
+    float: left;
+    
+}
+.right-2{
+    width: 45%;
+    float: left;
+    
+}
+.footer-container{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    
+}
+.footer-container a{
+    padding: 10px;
+    color: wheat;
+    margin: 20px;
+    text-decoration: none;
+    }
+.footer-container a:hover{color: red;
+    text-shadow: 3px 4px 5px gray;}
+
+.footer-container p{
+    color: white;
+    margin-top: 20px;
+}
